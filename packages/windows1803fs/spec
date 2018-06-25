@@ -1,0 +1,7 @@
+---
+name: windows1803fs
+
+dependencies: []
+
+files:
+  - windows1803fs/windows1803fs-*.tgz
