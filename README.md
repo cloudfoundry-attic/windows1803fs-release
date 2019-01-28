@@ -20,3 +20,12 @@ Due to limitations in distributing the Microsoft container images, this release 
 
 If you are running in dev mode, set the `DEV_ENV` environment variable to `true`.
 
+## smoke test
+
+Ensure that `winc-release` and `windows1803fs-release` are uploaded to your BOSH director.
+
+```
+bosh -d windows1803fs deploy manifests/smoke-test.yml
+bosh -d windows1803fs run-errand smoke-test
+```
+
