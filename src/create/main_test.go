@@ -65,6 +65,7 @@ var _ = Describe("Create", func() {
 
 func copyReleaseDir(src, dst string) {
 	pathsToCopy := []string{
+		".final_builds",
 		"config",
 		".git",
 		".gitignore",
