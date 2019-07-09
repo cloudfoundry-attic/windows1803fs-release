@@ -2,6 +2,6 @@ golang/go1.12.1.windows-amd64.zip:
   size: 141212127
   object_id: 31b37ba6-0b61-4665-5c51-4c5ca2ed244e
   sha: f7148c1d2ecdbfe645cf0a824bfa1811d0950319
-windows1803fs/windows2016fs-1803.0.37.tgz:
-  size: 2940317722
-  sha: 6866fc388b8c9f0677b86a7072bdcf7333907fb7
+windows1803fs/windows2016fs-1803.0.38.tgz:
+  size: 2963841328
+  sha: b820081d6df6195a70cbd0a991f7b663aedacbd2
