@@ -15,7 +15,7 @@ import (
 
 type ReleaseCreator struct{}
 
-func (rc ReleaseCreator) CreateRelease(imageName, releaseDir, tarballPath, imageTagPath, versionDataPath string) error {
+func (rc ReleaseCreator) CreateRelease(imageName, releaseDir, tarballPath, imageTagPath, versionDataPath string, force bool) error {
 	tagData, err := ioutil.ReadFile(imageTagPath)
 	if err != nil {
 		return err
@@ -46,6 +46,7 @@ func (rc ReleaseCreator) CreateRelease(imageName, releaseDir, tarballPath, image
 	createReleaseOpts := &opts.CreateReleaseOpts{
 		Directory: opts.DirOrCWDArg{Path: releaseDir},
 		Version:   releaseVersion,
+		Force:     force,
 	}
 
 	if tarballPath != "" {
