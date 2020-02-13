@@ -1,7 +1,7 @@
-golang/go1.13.7.windows-amd64.zip:
-  size: 134203480
-  object_id: 5d8b197b-8238-4701-68cd-96801483ee0d
-  sha: 8bf51bc05442f6ef2351a9462abf09b55bff10de
+golang/go1.13.8.windows-amd64.zip:
+  size: 134205773
+  object_id: d2576abc-d145-4089-64b5-613ef4ebaa8b
+  sha: 48376a9e8e57688bbc7e405935085d0d278acb37
 windows1803fs/windows2016fs-1803.0.52.tgz:
   size: 3035707757
   sha: 0cbac4aed51644a4b24c6ef264cf6454b2dbb1c2
